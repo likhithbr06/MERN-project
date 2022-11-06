@@ -1,5 +1,5 @@
 import React from "react";
-import useStyles from './Styles'
+import useStyles from './Forms.styles.js'
 
 const Form = () => {
     const classes = useStyles()
