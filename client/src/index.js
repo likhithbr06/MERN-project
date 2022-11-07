@@ -6,7 +6,7 @@ import { configureStore, applyMiddleware, compose} from '@reduxjs/toolkit'
 import thunk from 'redux-thunk'
 import reducers from './reducers'
 
-const store = configureStore(reducers,compose(applyMiddleware(thunk)))
+const store = configureStore({reducer: reducers})
 
 
 
